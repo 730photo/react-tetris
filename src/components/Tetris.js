@@ -76,7 +76,7 @@ const move  = ({ keyCode }) => {
                 </div>
                 )}
                 {/* resets the stage and resets the player */}
-            <StartButton onClick={startGame} />
+            <StartButton callback={startGame} />
             </aside>
             </StyledTetris>
         </StyledTetrisWrapper>
