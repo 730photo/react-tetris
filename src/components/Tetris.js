@@ -44,6 +44,8 @@ const movePlayer = dir => {
     setLevel(0);
   }
 
+  //yessir
+
   const drop = () => {
     // increase level once player has cleared 10 rows
     if (rows > (level + 1) * 10) {
